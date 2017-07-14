@@ -30,6 +30,7 @@ type Response struct {
 	TransactionId     string     `json:"transaction_id"`
 	TransactionTime   string     `json:"transaction_time"`
 	TransactionStatus string     `json:"transaction_status"`
+	FraudStatus       string     `json:"fraud_status"`
 	GrossAmount       string     `json:"gross_amount"`
 	VANumbers         []VANumber `json:"va_numbers"`
 	PaymentCode       string     `json:"payment_code"`
